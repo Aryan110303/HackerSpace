@@ -3980,7 +3980,19 @@ figcaption {
 .righty .image-collage .img4 {
   transform: translate(30%, -80%);
 }
-
+.righty .image-collage .img1:hover {
+  transform: translate(-50%, -70%), scale(1.2) !important;
+  z-index: 99;
+}
+.righty .image-collage .img2:hover {
+  transform: translate(-130%, 20%), scale(1.2) !important;
+}
+.righty .image-collage .img3:hover {
+  transform: translate(-20%, 30%), scale(1.2) !important;
+}
+.righty .image-collage .img4:hover {
+  transform: translate(30%, -80%), scale(1.2) !important;
+}
 .container-large {
   width: 100%;
   max-width: 70rem;
@@ -4516,19 +4528,24 @@ figcaption {
 }
 
 .footer {
-  background-color: #1f1f1f
+  border-radius: 2vh;
+  padding: 0.5vh;
 }
 
 .footer_component {
+  background-color: #1f1f1f;
   grid-column-gap: 5rem;
   grid-row-gap: 16px;
   color: #fff;
   grid-template-rows: auto;
   grid-template-columns: 2.75fr .75fr 1.1fr 1.75fr;
   grid-auto-columns: 1fr;
+  padding-left:4vh;
   padding-top: 4rem;
   padding-bottom: 8rem;
-  display: grid
+  display: grid;
+  margin: 2.5%;
+  border-radius: 2vh;
 }
 
 .footer_social-icon {
@@ -7990,6 +8007,7 @@ ul {
   .righty .img{
     width: 40%;
   }
+  
   .righty{
     margin: 0%;
     height: 50vh;
