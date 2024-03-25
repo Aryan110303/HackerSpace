@@ -419,6 +419,10 @@ a:focus {
   width: auto;
   margin: 8rem;
 }
+.section-3 .mega-container h2 {
+  
+  text-align: center !important;
+}
 
 .faq-header{
 font-size: 42px;
