@@ -8,14 +8,15 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&family=Montserrat:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital@1&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.6.2/tailwind.min.css">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-
   <title>Apple Tribe</title>
-
-
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -36,7 +37,7 @@
 
     <div class="page-wrapper">
       <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
-          role="banner" class="navbar w-nav">
+          role="banner" class="navbar w-nav" data-aos="fade-up" data-aos-delay="100" data-aos-anchor-placement="bottom bottom">
           <div class="nav_component">
               <nav role="navigation" class="nav_menu w-nav-menu">
                   <a href="#section" class="nav_link w-nav-link">Discover</a>
@@ -55,7 +56,11 @@
     <!-- slider section -->
     <section class="slider_section long_section" id="section">
       <div class="padding-outer">
-        <a href="#" class="logo-nav"><img src="./Screenshot_2023-12-20_174051-removebg-preview.png" alt="" style="width: 17em;"></a>
+        <div style="display: flex;">
+          <a href="#" class="logo-nav"><h2 style="font-family: 'Roboto',Arial, Helvetica, sans-serif; font-size: 4vh; color: #000 !important;">Hacker Space</h2></a>
+          <a style="margin-left: auto;" href="#"><img style="width: 32vh;" src="./apply.png" alt="apply with devfolio"></a>
+        </div>
+      
         <div id="customCarousel" class="carousel slide" data-ride="carousel">
           
             <div class="carousel-item active">
@@ -63,19 +68,19 @@
                 <div class="row">
                   <div class="col-md-5">
                     <div class="detail-box">
-                      <h2>
+                      <h2 data-aos="fade-right" data-aos-delay="200">
                         <!-- Apple Coding Tribe<br> -->
                         <strong style="color:#703EE8;">Kode the Way!</strong><br>
                         Hacker Space
                       </h2>
-                      <p>
+                      <p data-aos="fade-right" data-aos-delay="300">
                       A 36 Hour Hybrid Hackathon organized by Apple Coding Tribe and sponsored by [someone].
                       </p>
                       <div class="btn-box">
-                        <a href="" class="btn1">
+                        <a href="" class="btn1" data-aos="fade-up" data-aos-delay="600">
                           Register Solo <i class="fa fa-user"></i>
                         </a>
-                        <a href="" class="btn2">
+                        <a href="" class="btn2" data-aos="fade-up" data-aos-delay="800"> 
                           Register Team <i class="fa fa-users"></i>
                         </a>
                       </div>
@@ -113,9 +118,8 @@
         <div class="sm:w-1/2 p-5">
             <div class="text">
                 <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">About us</span>
-                <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600 underline">DigiPod<img src=""></span></h2>
-                <p class="text-gray-700">Welcome to DigiPod, where creativity meets strategy and sparks fly. We're a cutting-edge branding
-                  and marketing agency that turns ideas into extraordinary experiences.</p>
+                <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600 underline">Hacker Space<img src=""></span></h2>
+                <p class="text-gray-700">Welcome to Hacker Space, where creativity meets code. We're on a mission to enhance the hacker community with creative tracks and resorces for hackathons and build a strong community.</p>
             </div>
         </div>
     </div>
@@ -156,7 +160,7 @@
 
 
 
-  <div class="section2" id="section2">
+  <div class="section2" id="section2" data-aos="fade-up" data-aos-delay="600">
     <div class="inner-box">
       <main class="main flow">
         <h1 class="main__heading">Prizes</h1>
@@ -186,7 +190,7 @@
               <h2 class="card__heading">Rank II</h2>
               <p class="card__price">INR 10K</p>
               <ul role="list" class="card__bullets flow">
-                <li>Cash Prize of INR 5K</li>
+                <li>Cash Prize of INR 10K</li>
                 <li>Certificate</li>
                 <li>Vouchers</li>
               </ul>
@@ -202,6 +206,20 @@
   </div>
 
 
+
+
+    <div class="section3" id="section3">
+      <div class="mega-container" style="display: grid; grid-template-columns: 50% 50%; margin: 0 10vh;" data-aos="fade-up" data-aos-delay="200">
+       <div>
+        <h2 style="text-align: center; margin: 8vh 0;">Sponsors</h2>
+        <a href="#" class="logo-nav"><img src="./_Colored.png" alt="DEVFOLIO LOGO" style="width: 35vh;"></a>
+        </div>
+        <div>
+        <h2 style="text-align: center; margin: 8vh 0;">Season Partners</h2>
+        <a href="#" class="logo-nav"><img  src="./polygon.png" alt="POLYGON LOGO" style="width: 35vh !important; margin-bottom: 4vh;"></a>
+        <a href="#" class="logo-nav"><img  src="./eth.png" alt="ETHINDIA LOGO" style="width: 35vh;"></a>
+      </div>
+  </div>
   <!-- about us section -->
 
   <!-- about us section -->
@@ -446,7 +464,8 @@ document.body.addEventListener("pointermove", applyOverlayMask);
 }
     });
    </script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 <script>
